@@ -24,6 +24,18 @@ font-style: normal;
 font-weight: 400;
 font-size: 26px;
 line-height: 32px;
-text-align: right;
+text-align: left;
+margin-left: 30px;
 color: #1A202C;
 `;
+
+export const Ptext2 = styled.p`
+margin-left: 30px;
+font-family: 'Lexend Deca';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: left;
+color: #717171;  
+`
