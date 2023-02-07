@@ -9,6 +9,7 @@ box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
 border-radius: 5px;
 `;
 export const Ptext1 = styled.p`
+display:inline;
 margin-left: 30px;
 font-family: 'Lexend Deca';
 font-style: normal;
@@ -38,4 +39,4 @@ font-size: 16px;
 line-height: 20px;
 text-align: left;
 color: #717171;  
-`
+`;
