@@ -1,25 +1,20 @@
 import React from "react";
 import { Top ,Codelandia, Blog,Seach,ImgS} from "./Css/Style";
 import {Input} from "./Css/StyleInput"
-import ''
+import seaching from "../../Assets/seach.png"
 
 
-function TopPage (){
+
+function Header (){
     return(
-
     <Top>
         <Codelandia>Codelândia</Codelandia>
         <Blog>Blog</Blog>
         <Seach>
-            <ImgS src={seachimg} />
+            <ImgS src={seaching} />
             <Input type='text' placeholder="Pesquise no Blog"></Input>
-        </Seach>
-        
-    </Top>
-    
-     
+        </Seach>       
+    </Top>    
     ) 
-
-
 }
-export default TopPage
+export default Header
