@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
  export const Top = styled.div`
 width: 1920px;
 height: 250px;
@@ -15,7 +16,7 @@ width: 133px;
 height: 30px;
 left: 509px;
 top: 41px;
-font-family: 'Lexend Deca';
+font-family:'Lexend Deca';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -49,6 +50,16 @@ top: 144px;
 background: rgba(255, 255, 255, 0.2);
 border-radius: 5px;
 `;
+
+export const ImgS = styled.img`
+position:absolute;
+top: 36%;
+
+left: 3%;
+right: 10.94%;
+
+
+`
 
 
 

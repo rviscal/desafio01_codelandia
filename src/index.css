@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face{
+  font-family:"Lexend Deca";
+  src: local("LexendDeca-Regular"),
+  url("./Fonts/LexendDeca-Regular.ttf") format("truetype");
+}
+
+@font-face{
+  font-family: "Inter";
+  src: local("Inter-Regular"),
+  url("./Fonts/Inter-Regular.ttf") format("truetype")
+}

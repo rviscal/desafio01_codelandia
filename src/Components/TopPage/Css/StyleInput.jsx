@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 
 
+
 export const Input = styled.input`
 
 width:800px;
 height:29px;
-margin-left: 70px;
+margin-left: 90px;
 margin-top: 20px;
 background: rgba(0,0,0,0.0);
 border-radius: 5px;
