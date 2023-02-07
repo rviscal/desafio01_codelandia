@@ -40,6 +40,18 @@ text-align: right;
 color: #FFFFFF;
  
 `;
+export const Seach = styled.div`
+position: absolute;
+width: 900px;
+height: 65px;
+left: 510px;
+top: 144px;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 5px;
+`;
+
+
+
 
 
 
