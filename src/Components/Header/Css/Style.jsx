@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
-
- export const Top = styled.div`
+export const Top = styled.div`
 width: 1920px;
 height: 250px;
 left: 0px;
