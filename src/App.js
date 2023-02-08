@@ -5,11 +5,11 @@ import React, { useState } from 'react';
 
 function App() {
 
-  const [pesquisa, setPesquisa] = useState('');
+  const [search, setSearch] = useState('');
   return (
     <>
-      <Header pesquisa={pesquisa} setPesquisa={setPesquisa} />
-      <Container pesquisa={pesquisa} setPesquisa={setPesquisa} />
+      <Header search={search} setSearch={setSearch} />
+      <Container search={search}/>
     </>
   );
 }

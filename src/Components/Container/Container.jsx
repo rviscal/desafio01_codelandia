@@ -6,9 +6,9 @@ import { Data } from "./Data";
 
 function Container(props) {
     
-    const { pesquisa } = props;
+    const { search } = props;
     const data = Data.filter((item) => {
-        return pesquisa.toLocaleLowerCase() === '' ? item : item.ptex2.toLocaleLowerCase().includes(pesquisa)
+        return search.toLocaleLowerCase() === '' ? item : item.ptex2.toLocaleLowerCase().includes(search)
     }
     )
     const listitem = data.map(
