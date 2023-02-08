@@ -21,5 +21,5 @@ export const Ptext2 = styled.p`
 margin-left: 30px;
 margin-right: 30px;
 font-size: 16px;
-margin-bottom: 20px;
+margin-bottom: 40px;
 `;
