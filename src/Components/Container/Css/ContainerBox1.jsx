@@ -16,7 +16,6 @@ font-size: 26px;
 margin-left: 30px;
 color: #1A202C;
 `;
-
 export const Ptext2 = styled.p`
 margin-left: 30px;
 margin-right: 30px;

@@ -4,10 +4,13 @@ import { Containerbox1, Ptext1, Htext1, Ptext2 } from "./Css/ContainerBox1";
 import Heart from "./Heart"
 import { Data } from "./Data";
 
-function Container() {
-
-    const data  = Data.filter(data => data.ptex2.includes())
-
+function Container(props) {
+    
+    const { pesquisa } = props;
+    const data = Data.filter((item) => {
+        return pesquisa.toLocaleLowerCase() === '' ? item : item.ptex2.toLocaleLowerCase().includes(pesquisa)
+    }
+    )
     const listitem = data.map(
         (item, i) =>
             <Containerbox1 key={i}>

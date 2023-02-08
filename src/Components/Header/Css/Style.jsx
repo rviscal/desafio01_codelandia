@@ -7,7 +7,6 @@ left: 0px;
 top: 0px;
 background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
 `;
-
 export const Codelandia = styled.h1`
 position: absolute;
 width: 133px;
@@ -22,7 +21,6 @@ line-height: 30px;
 text-align: right;
 color: #FFFFFF;
 `;
-
 export const Blog = styled.h1`
 position: absolute;
 width: 52px;
@@ -37,7 +35,6 @@ line-height: 30px;
 text-align: right;
 color: #FFFFFF;
  `;
-
 export const Seach = styled.div`
 position: absolute;
 width: 900px;
@@ -47,7 +44,6 @@ top: 144px;
 background: rgba(255, 255, 255, 0.2);
 border-radius: 5px;
 `;
-
 export const ImgS = styled.img`
 position:absolute;
 top: 36%;
