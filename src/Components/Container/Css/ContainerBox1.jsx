@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const Containerbox1 = styled.div`
 margin:auto;
-background: #ffffff;
+background:red;
 box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
 border-radius: 5px;
 `;
 export const Ptext1 = styled.p`
-display:inline;
 margin-left: 30px;
 font-family: 'Lexend Deca';
 font-size: 16px;

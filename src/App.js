@@ -5,8 +5,10 @@ import Container from './Components/Container/Container';
 
 function App() {
   return (
-    <><Header />
-    <Container /></>
+    <>
+    <Header />
+    <Container />
+    </>
   );
 }
 export default App;
