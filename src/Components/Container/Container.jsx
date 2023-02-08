@@ -6,9 +6,9 @@ import { Data } from "./Data";
 
 function Container() {
 
-    
-    
-    const listitem = Data.map(
+    const data  = Data.filter(data => data.ptex2.includes())
+
+    const listitem = data.map(
         (item, i) =>
             <Containerbox1 key={i}>
                 <Heart />
